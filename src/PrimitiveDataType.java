@@ -37,7 +37,8 @@ public class PrimitiveDataType {
 //		System.out.println(res);
 //		int a=10;
 //		int b=10;
-		System.out.println(10&36);
+//		System.out.println(10&36);
+		return;
 		
 		
 	}
