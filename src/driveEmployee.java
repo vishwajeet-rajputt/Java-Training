@@ -2,12 +2,16 @@
 public class driveEmployee {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		employee e1 = new employee(1,"Ankit");
-		e1.display();
-		System.out.println("=================");
-		employee e2 = new employee(2,"Ram","ram@gmail.com",10000,"Engineer");
-		e2.display();
+		employee e1 = employee.getEmployeeObject(1,"Ankit","ankit@gmail.com",45000,"Engineer");
+		System.out.println(e1.getUId());
+		System.out.println(e1.getName());
+		System.out.println(e1.getEmail());
+		System.out.println(e1.getSalary());
+		System.out.println(e1.getDesignation());
+		e1.setDesignation("NO- JOB");
+		e1.setName("me");
+		System.out.println(e1.getName());
+		System.out.println(e1.getDesignation());
 
 	}
 

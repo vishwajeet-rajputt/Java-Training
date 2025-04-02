@@ -14,6 +14,8 @@ public class staticMethod {
 		System.out.println("static block 2");
 	}
 	static {
-		System.out.println("static block -1");
+		System.out.println("static block -1"); 
 	}
 }
+
+

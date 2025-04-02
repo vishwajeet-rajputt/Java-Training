@@ -13,6 +13,7 @@ public class arrayElement {
 			 add+=arr[i];
 		}
 		System.out.println(add);
+		sc.close();
 	}
 
 	}
